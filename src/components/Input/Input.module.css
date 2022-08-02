@@ -1,0 +1,41 @@
+.input {
+  background-color: #fff;
+  color: #555;
+  padding: 8px 20px;
+  border: 2px solid rgb(231, 150, 0);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  outline: none;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #999;
+  font-size: 14px;
+}
+
+.validInput {
+  border: 1px solid rgb(231, 150, 0);
+}
+
+.errorInput {
+  border: 1px solid red;
+}
+
+.input:hover {
+  background-color: rgb(239, 239, 239);
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}

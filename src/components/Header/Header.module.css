@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #000;
+  align-items: center;
+}
+
+.header {
+  margin-bottom: 1rem;
+  background-image: linear-gradient(
+    to right,
+    rgb(221, 199, 138),
+    rgb(231, 150, 0)
+  );
+}
+
+.logo {
+  height: 80px;
+}
+
+.link {
+  color: inherit;
+  font-size: 1.4rem;
+  margin-right: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+hr {
+  border: 1px solid #000;
+}

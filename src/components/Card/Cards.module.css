@@ -1,0 +1,32 @@
+.cards {
+  border: 2px solid rgb(231, 150, 0);
+  border-radius: 5px;
+  padding: 15px;
+  text-align: left;
+  min-width: 16rem;
+  margin-bottom: 20px;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.canSelect:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  text-decoration: underline;
+  text-decoration-color: rgb(231, 150, 0);
+}
+
+.title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #000;
+}
+
+.descr {
+  margin-bottom: 10px;
+  text-align: justify;
+  font-size: 18px;
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 16px;
+}

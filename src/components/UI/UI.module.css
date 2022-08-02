@@ -1,0 +1,62 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+.titleBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  margin-top: 4rem;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 5px;
+  min-width: 135px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.prime {
+  background-color: rgb(231, 150, 0);
+  border: 2px solid rgb(231, 150, 0);
+  color: #fff;
+}
+
+.prime:hover {
+  background-color: rgb(39, 77, 115);
+  border: 2px solid rgb(39, 77, 115);
+}
+
+.second {
+  background-color: #fff;
+  color: rgb(231, 150, 0);
+  border: 2px solid rgb(231, 150, 0);
+  /* margin-left: 0.5rem; */
+}
+
+.second:hover {
+  background-color: rgb(39, 77, 115);
+  border: 2px solid rgb(39, 77, 115);
+  color: #fff;
+}
+
+.alert {
+  background-color: rgb(240, 138, 138);
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.link {
+  text-decoration: underline;
+  color: rgb(231, 150, 0);
+}
+
+.title {
+  margin: 0 auto;
+}
